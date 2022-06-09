@@ -6,7 +6,11 @@
 	"website": "https://yam.ink",
 	"stack": "container",
 	"env": { 
-		
+		" HerokuMysq": {
+			"description": " HerokuMysq",
+			"value": "false"
+		},
+	
 		"DB_Host": {
 			"description": "Database Host",
 			"value": "127.0.0.1"
