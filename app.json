@@ -5,7 +5,10 @@
 	"repository": "https://github.com/FuaerCN/Cloudreve-Heroku",
 	"website": "https://yam.ink",
 	"stack": "container",
-	"env": {
+	"env": { 
+		" HerokuMysq": {
+			"description": " HerokuMysq",
+			"value": "false"
 	
 		"DB_Host": {
 			"description": "Database Host",
