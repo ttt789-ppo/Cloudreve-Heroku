@@ -8,7 +8,7 @@
 	"env": { 
 		" HerokuMysq": {
 			"description": " HerokuMysq",
-			"value": "false"
+			"value": "false",
 	
 		"DB_Host": {
 			"description": "Database Host",
