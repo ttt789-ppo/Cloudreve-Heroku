@@ -1,8 +1,14 @@
 #!/bin/sh
 
 if [ "$HerokuMysql" = "false" ]
-
-then 
+then
+	echo "Heroku Mysql"
+	Host=${JAWSDB_URL:42:57}
+	Port=${JAWSDB_URL:100:4}
+	User=${JAWSDB_URL:8:16}
+	Password=${JAWSDB_URL:25:16}
+	Name=${JAWSDB_URL##*/}
+else  
 	echo "Remote MySQL"
 	Host=$DB_Host
 	Port=$DB_Port
