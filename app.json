@@ -6,8 +6,8 @@
 	"website": "https://yam.ink",
 	"stack": "container",
 	"env": { 
-		" HerokuMysq": {
-			"description": " HerokuMysq",
+		" HerokuMysql": {
+			"description": " HerokuMysql",
 			"value": "false"
 		},
 	
